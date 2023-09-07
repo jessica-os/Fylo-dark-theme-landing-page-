@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
+
     <title>
       Frontend Mentor | Fylo landing page with dark theme and features grid
     </title>
@@ -46,6 +47,13 @@
       </nav>
     </header>
     <section class="introduction">
+      <!-- <picture class="bg-image">
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/bg-curvy-desktop.svg"
+        />
+        <img src="./images/bg-curvy-mobile.svg" alt="" />
+      </picture> -->
       <img src="./images/illustration-intro.png" alt="" />
       <div class="introduction-text">
         <h2>All your files in one secure location, accessible anywhere.</h2>
@@ -170,6 +178,8 @@
           placeholder="email@example.com"
           required
         />
+        <br />
+        <small class="error">Please enter a valid email address</small>
         <button type="submit" class="btn-get-started">
           Get Started For Free
         </button>

@@ -1,154 +1,158 @@
 @media (min-width: 688px) {
   .header {
-    padding: 30px;
-  }
-  .introduction .introduction-text h2 {
-    margin: auto;
-    font-size: 30px;
-  }
-  .introduction .introduction-text p {
-    font-size: 20px;
-    max-width: 400px;
-  }
-  .services .service h3 {
-    font-size: 25px;
-  }
-  .services .service p {
-    font-size: 18px;
-    line-height: 25px;
-    max-width: 360px;
-  }
-  .stay-productive .stay-productive-text h2 {
-    font-size: 22px;
-    margin-top: 40px;
-  }
-  .stay-productive .stay-productive-text p {
-    font-size: 18px;
-    max-width: 400px;
-    margin-top: 23px;
-  }
-  .access {
-    max-width: 450px;
-  }
-  .footer-inner {
-    grid-template-columns: 1fr 1fr;
-    gap: 90px;
-  }
-
-  .footer-inner .contact {
-    margin-top: 50px;
-  }
-  .footer-inner .navegation {
-    margin-top: -50px;
-  }
-
-  .footer-inner .social {
-    margin-right: 0;
-  }
-}
-@media (min-width: 1024px) {
-  .header {
-    padding: 60px;
+    padding: 40px;
   }
   .header .menu-navegation ul {
-    font-size: 20px;
     gap: 30px;
+    font-size: 16px;
+  }
+  .introduction .introduction-text {
+    margin-top: 30px;
   }
   .introduction .introduction-text h2 {
     font-size: 30px;
-    max-width: 600px;
-    margin-top: 30px;
-    line-height: 50px;
+  }
+  .stay-productive {
+    padding: 60px;
+  }
+  .stay-productive .stay-productive-text h2 {
+    font-size: 24px;
+  }
+  .stay-productive .stay-productive-text p {
+    font-size: 16px;
+    max-width: 450px;
+  }
+  .testimonial p {
+    max-width: 450px;
+  }
+  .access {
+    max-width: 500px;
+    margin: 150px auto;
+    margin-bottom: -120px;
+  }
+  .access h3 {
+    font-size: 25px;
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 0 150px;
+  }
+  .footer-inner p {
+    max-width: 380px;
+    margin-bottom: 50px;
+  }
+  .footer-inner .navegation {
+    margin-left: 50px;
+  }
+  .footer-inner .contact {
+    margin-bottom: 10px;
+  }
+  .footer-inner .social {
+    margin-left: -230px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header .menu-navegation ul {
+    gap: 40px;
+    font-size: 22px;
+  }
+  .introduction {
+    text-align: center;
+  }
+  .introduction img {
+    width: 60%;
+    margin: auto;
+  }
+  .introduction .introduction-text h2 {
+    max-width: 500px;
+    font-size: 35px;
+    line-height: 45px;
   }
   .introduction .introduction-text p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
-    max-width: 550px;
-    margin: 25px auto;
+    max-width: 500px;
   }
   .services {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .stay-productive {
     display: flex;
-    gap: 50px;
-    padding: 50px;
+    gap: 30px;
   }
   .stay-productive img {
     width: 50%;
   }
   .stay-productive .stay-productive-text h2 {
-    font-size: 30px;
-    max-width: 300px;
+    font-size: 35px;
+  }
+  .stay-productive .stay-productive-text p {
+    font-size: 16px;
+    max-width: 450px;
   }
   .testimonials {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   .access {
-    max-width: 650px;
+    max-width: 800px;
+    margin: 150px auto;
+    margin-bottom: -120px;
   }
   .access h3 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .access p {
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 650px;
-    margin: 30px auto;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 600px;
   }
   .access form {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     gap: 20px;
   }
   .access form input {
-    padding: 15px 100px;
+    margin-top: 0;
+    padding: 15px 140px;
+  }
+  .error {
+    bottom: 10px;
+    left: 50px;
   }
   .access form .btn-get-started {
-    width: 200px;
-    padding: 15px;
-    margin-top: 20px;
+    width: 230px;
+    padding: 15px 40px;
   }
   .footer-inner {
-    grid-template-columns: 250px 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: 300px 1fr 150px 150px;
+    gap: 35px;
   }
   .footer-inner .social {
-    margin-right: 0;
-    margin-top: 30px;
+    margin-left: 0px;
+    margin-top: 0;
   }
-
   .footer-inner .navegation {
-    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 400px 1fr 130px 130px 1fr;
+    gap: 35px;
   }
   .footer-inner .contact {
     margin-top: 30px;
   }
-  .footer-inner .contact li {
-    display: flex;
-  }
-}
-@media (min-width: 1280px) {
-  .stay-productive {
-    gap: 80px;
-    padding: 50px;
-  }
-  .stay-productive .stay-productive-text p {
-    margin-top: 20px;
-    font-size: 16px;
-    max-width: 430px;
-  }
-  .access {
-    max-width: 800px;
-    margin-bottom: -130px;
-  }
   .footer-inner .navegation {
-    margin-bottom: 0px;
+    margin-top: 30px;
   }
-  .footer-inner {
-    grid-template-columns: 250px 1fr 100px 100px 1fr;
-    gap: 100px;
+  .footer-inner .social {
+    margin-top: 30px;
   }
 }

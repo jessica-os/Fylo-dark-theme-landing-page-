@@ -2,6 +2,7 @@ body {
   background-color: var(--Dark-Blue-Main);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  min-height: 100vh;
 }
 
 .header {
@@ -26,23 +27,22 @@ body {
   text-decoration: underline;
 }
 .introduction {
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 40px;
 }
 .introduction img {
   width: 95%;
 }
 .introduction .introduction-text {
+  margin-top: 30px;
   text-align: center;
   color: var(--White);
 }
 .introduction .introduction-text h2 {
-  line-height: 40px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Raleway", sans-serif;
-  margin-top: 50px;
   max-width: 380px;
-  text-align: center;
+  margin: auto;
 }
 
 .introduction .introduction-text p {
@@ -61,13 +61,18 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
+.introduction .introduction-text .btn-get-started:hover {
+  background: rgb(169, 255, 249);
+}
+
 .services {
-  margin-top: 150px;
-  text-align: center;
-  color: var(--White);
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 150px;
+  color: var(--White);
+  text-align: center;
 }
+
 .services .service {
   margin-bottom: 100px;
 }
@@ -92,7 +97,6 @@ body {
   margin-top: 40px;
   font-family: "Raleway", sans-serif;
   font-size: 17px;
-  
 }
 .stay-productive .stay-productive-text p {
   margin-top: 20px;
@@ -103,21 +107,21 @@ body {
   color: var(--Cyan);
   border-bottom: 2px solid var(--Cyan);
 }
-.stay-productive .stay-productive-text a:hover{
-    color: var(--White);
-    border-bottom: 2px solid var(--White);
-} 
+.stay-productive .stay-productive-text a:hover {
+  color: var(--White);
+  border-bottom: 2px solid var(--White);
+}
 .stay-productive .stay-productive-text .arrow {
   width: 15px;
   margin-top: 30px;
 }
-.stay-productive .stay-productive-text .arrow:hover{
-    color: var(--White);
-} 
+.stay-productive .stay-productive-text a:hover .arrow {
+  filter: brightness(100);
+}
 .testimonials {
   margin-top: 150px;
   display: grid;
-  grid-template-columns:  1fr;
+  grid-template-columns: 1fr;
   gap: 30px;
   position: relative;
   padding: 40px;
@@ -146,8 +150,7 @@ body {
   align-items: center;
 }
 .testimonial .profile img {
-  width: 10%;
-  height: 10%;
+  width: 15%;
   border-radius: 50%;
 }
 .testimonial .profile .name {
@@ -186,6 +189,12 @@ body {
   border: none;
   border-radius: 20px;
 }
+.error{
+  color:var(--Light-Red);
+  position: absolute;
+  bottom: 120px;
+  
+}
 .access form .btn-get-started {
   font-family: "Raleway", sans-serif;
   padding: 15px 60px;
@@ -197,16 +206,17 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
+.access form .btn-get-started:hover {
+  background: rgb(169, 255, 249);
+}
 .footer {
   background-color: var(--Dark-Blue-Footer);
   padding: 250px 30px 20px;
- 
 }
 .footer-inner {
   color: var(--White);
   display: grid;
-  grid-template-columns: 1fr
-
+  grid-template-columns: 1fr;
 }
 .footer-inner p {
   max-width: 280px;
