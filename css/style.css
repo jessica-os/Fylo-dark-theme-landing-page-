@@ -189,12 +189,13 @@ body {
   border: none;
   border-radius: 20px;
 }
-.error{
-  color:var(--Light-Red);
+.error {
+  color: var(--Light-Red);
   position: absolute;
   bottom: 120px;
-  
+  display: none;
 }
+
 .access form .btn-get-started {
   font-family: "Raleway", sans-serif;
   padding: 15px 60px;
@@ -272,4 +273,9 @@ body {
   color: var(--White);
   font-size: 12px;
   text-align: center;
+  padding: 10px;
+}
+.attribution span {
+  color: var(--Cyan);
+  font-weight: 700;
 }

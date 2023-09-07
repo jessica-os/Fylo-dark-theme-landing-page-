@@ -71,9 +71,9 @@
     line-height: 45px;
   }
   .introduction .introduction-text p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
-    max-width: 500px;
+    max-width: 550px;
   }
   .services {
     display: grid;
@@ -81,7 +81,7 @@
   }
   .stay-productive {
     display: flex;
-    gap: 30px;
+    gap: 10px;
   }
   .stay-productive img {
     width: 50%;
@@ -141,9 +141,47 @@
   }
 }
 @media (min-width: 1280px) {
+  .header {
+    padding: 60px;
+  }
+  .introduction .introduction-text h2 {
+    max-width: 600px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .services {
+    padding: 50px;
+  }
+  .services .service {
+    margin-bottom: 100px;
+  }
+  .services .service p {
+    max-width: 400px;
+  }
+  .stay-productive {
+    gap: 30px;
+  }
+
+  .testimonial {
+    max-width: 350px;
+  }
+  .access {
+    max-width: 800px;
+    margin: 150px auto;
+    margin-bottom: -110px;
+    position: relative;
+  }
+  .access h3 {
+    font-size: 25px;
+    margin: 0px;
+  }
+  .access p {
+    max-width: 600px;
+    margin: 20px auto 40px;
+  }
   .footer-inner {
     display: grid;
-    grid-template-columns: 400px 1fr 130px 130px 1fr;
+    grid-template-columns: 350px 1fr 130px 130px 1fr;
     gap: 35px;
   }
   .footer-inner .contact {
