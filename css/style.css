@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  background-color: var(--Dark-Blue);
 }
 .header img {
   width: 15%;
@@ -27,11 +28,22 @@ body {
   text-decoration: underline;
 }
 .introduction {
-  margin-top: 10px;
   padding: 40px;
+  background-color: var(--Dark-Blue);
+  position: relative;
+  z-index: 1;
 }
 .introduction img {
   width: 95%;
+}
+.introduction .bg-image {
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+  z-index: -1;
+}
+.introduction .bg-image img {
+  width: 100%;
 }
 .introduction .introduction-text {
   margin-top: 30px;
@@ -68,7 +80,7 @@ body {
 .services {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 150px;
+  margin-top: 100px;
   color: var(--White);
   text-align: center;
 }
@@ -274,6 +286,7 @@ body {
   font-size: 12px;
   text-align: center;
   padding: 10px;
+  font-size: 10px;
 }
 .attribution span {
   color: var(--Cyan);
