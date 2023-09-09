@@ -1,4 +1,4 @@
-# Frontend Mentor - Fylo dark theme landing page
+# Fylo dark theme landing page
 Este desafio foi retirado do site Frontend Mentor.<br>  [Clique aqui](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd) para conferir o desafio.
 
 ## Do que se trata esse desafio?
@@ -26,9 +26,15 @@ Trata-se de uma Landing Page totalmente responsiva com validação através do J
 ## Veja como ficou:
 
 ### Desktop:
+<img src="./readme/fylo-dark-desktop.gif" alt="video da pagina em formato desktop">
+
+### Tablet:
+<img src="./readme/fylo-dark-tablet.gif" alt="video da pagina em formato tablet">
  
 ### Mobile:
-Para ver o projeto pronto, [clique aqui!]()
+<img src="./readme/fylo-dark-mobile (2).jpg" alt="video da pagina em formato mobile">
+
+Para ver o projeto pronto, [clique aqui!](https://jessica-os.github.io/fylo-dark-theme-landing-page-master/)
 
 
 
