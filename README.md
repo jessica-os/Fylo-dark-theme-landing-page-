@@ -34,7 +34,7 @@ Trata-se de uma Landing Page totalmente responsiva com validação através do J
 ### Mobile:
 <img src="./readme/fylo-dark-mobile (2).jpg" alt="video da pagina em formato mobile">
 
-Para ver o projeto pronto, [clique aqui!](https://jessica-os.github.io/fylo-dark-theme-landing-page-master/)
+Para ver o projeto pronto, [clique aqui!](https://jessica-os.github.io/Fylo-dark-theme-landing-page-/)
 
 
 
