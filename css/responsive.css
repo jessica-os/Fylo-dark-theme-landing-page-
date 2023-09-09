@@ -10,7 +10,6 @@
     position: absolute;
     bottom: -5px;
     left: 0px;
-    width: 120%;
     z-index: -1;
   }
   .introduction .introduction-text {
@@ -42,7 +41,7 @@
   }
   .footer-inner {
     display: grid;
-    grid-template-columns: 500px 1fr;
+    grid-template-columns: 350px 1fr;
     gap: 0 150px;
   }
   .footer-inner p {
@@ -53,6 +52,7 @@
     margin-left: 50px;
   }
   .footer-inner .contact {
+    margin-top: 50px;
     margin-bottom: 10px;
   }
   .footer-inner .social {
