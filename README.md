@@ -26,13 +26,13 @@ Trata-se de uma Landing Page totalmente responsiva com validação através do J
 ## Veja como ficou:
 
 ### Desktop:
-<img src="./readme/fylo-dark-desktop.gif" alt="video da pagina em formato desktop">
+<img src="./src/videos-readme/fylo-dark-desktop.gif" alt="video da pagina em formato desktop">
 
 ### Tablet:
-<img src="./readme/fylo-dark-tablet.gif" alt="video da pagina em formato tablet">
+<img src="./src/videos-readme/fylo-dark-tablet.gif" alt="video da pagina em formato tablet">
  
 ### Mobile:
-<img src="./readme/fylo-dark-mobile (2).jpg" alt="video da pagina em formato mobile">
+<img src="./src/videos-readme/fylo-dark-mobile (2).jpg" alt="video da pagina em formato mobile">
 
 Para ver o projeto pronto, [clique aqui!](https://jessica-os.github.io/Fylo-dark-theme-landing-page-/)
 
